@@ -1,11 +1,11 @@
 body
 {
-	background: rgb(0, 0, 0);
+	background: grey;
 }
 
-	.div1 , .div2
-	{
-		background: white;
+.div1 , .div2
+{
+  background: white;
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
@@ -15,7 +15,7 @@ body
 #player1name , #player2name
 {
 	display: inline-block;
-	margin-left: 20px;
+	
 }
 #word
 {
@@ -39,3 +39,7 @@ h1{
 	color: white;
 }
 
+#btn1{
+	border-radius: 10px;
+	background-color: white;
+}
