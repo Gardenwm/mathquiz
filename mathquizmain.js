@@ -6,7 +6,7 @@ function send(){
     question_word = "<h4> Q. "+ number1 + "X" + number2 + "</h4>"; 
 input_box = "<br>Answer : <input type='number' id='input_check_box'>";
 check_button = "<br><br><button class='btn btn-info' onclick='check()'>Check</button>";
-row = question_word + input_box + check_button ; 
+row = question_word + input_box + check_button ;  
 document.getElementById("output").innerHTML = row;
 document.getElementById("number1").value = "";
 }
